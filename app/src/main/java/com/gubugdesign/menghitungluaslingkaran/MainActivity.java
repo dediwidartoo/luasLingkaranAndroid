@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         textView                = findViewById(R.id.txtResult);
         ImageView imageView     = findViewById(R.id.image);
 
-        Picasso.get().load("http://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
-                .into(imageView);
+        Picasso.get().load("https://4.bp.blogspot.com/-Ub7GmYOXZ4k/WnMiBB9nhYI/AAAAAAAAHuE/WOO7LhWFY5U4lwLoH-6aGhFiCiq8LjSiQCLcBGAs/s1600/Cara%2BMenghitung%2BLuas%2BLingkaran%2BYang%2BBenar.png")
+                .placeholder(R.drawable.luas_lingkaran).error(R.drawable.luas_lingkaran).into(imageView);
 
 
         button.setOnClickListener(new View.OnClickListener() {
