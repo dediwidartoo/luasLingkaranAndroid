@@ -2,6 +2,6 @@
     <string name="app_name">Menghitung Luas Lingkaran</string>
     <string name="input_jari">Masukkan Jari-jari Lingkaran</string>
     <string name="count">Hitung</string>
-    <string name="result"></string>
+    <string name="result">Hasil</string>
     <string name="description">Rumus menghitung Luas lingkaran adalah\nLuas = Phi*(jari-jari*jari-jari)</string>
 </resources>
